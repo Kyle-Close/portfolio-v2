@@ -1,0 +1,23 @@
+.anchor-links-container {
+  display: flex;
+  gap: 8%;
+  font-weight: bold;
+  font-size: 11px;
+  flex-grow: 1;
+}
+
+.anchor-links-container > a {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 380px) {
+  .anchor-links-container {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .anchor-links-container {
+    font-size: 18px;
+  }
+}

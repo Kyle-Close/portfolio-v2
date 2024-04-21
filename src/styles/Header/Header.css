@@ -1,0 +1,11 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  height: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: hsl(230, 17%, 14%);
+}
