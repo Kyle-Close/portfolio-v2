@@ -1,13 +1,12 @@
-import { Box, ButtonBase, IconButton, Typography } from '@mui/material';
+import { Box, IconButton, Typography } from '@mui/material';
 
-import linkedIn from '../../img/linkedin.svg';
 import EmailButton from '../generic/EmailButton';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 function ContactSection() {
   return (
-    <Box sx={titleContainer}>
+    <Box id='contact' sx={titleContainer}>
       <Typography variant='h3'>Contact</Typography>
       <Box sx={{ display: 'flex', gap: '1rem' }}>
         <IconButton
